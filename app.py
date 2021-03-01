@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Initialize firebase database
 cred = credentials.Certificate('key.json')
 default_app = initialize_app(cred, {
-    'databaseURL': 'https://test-api-4f85d-default-rtdb.firebaseio.com/'
+    'databaseURL': 'https://to-do-list-fb0a9-default-rtdb.firebaseio.com/'
 })
 
 ref = db.reference('tasks')
